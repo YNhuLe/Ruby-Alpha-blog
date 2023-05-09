@@ -54,7 +54,7 @@ before_action :set_article, only: [:show, :edit, :update, :destroy]
 
   #delete an article
   def destroy
-
+    @article = Article.find(params[:id])
     @article.destroy
     # redirect_to @articles_path
     redirect_to articles_path
