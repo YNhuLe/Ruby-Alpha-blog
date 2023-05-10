@@ -48,3 +48,19 @@ html {
   position: relative;
   min-height: 100%;
 }
+
+.text-info{
+  text-align: center;
+}
+.submit-btn{
+  width:20px;
+background-color: #000000;
+}
+
+
+//center button
+.form-group{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
